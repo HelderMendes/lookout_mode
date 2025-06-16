@@ -5,18 +5,26 @@ export default function Merken() {
                 <div className='marquee_inner'>
                     <div className='marquee_blur' aria-hidden='true'>
                         <p className='marquee_text'>
-                            Diega, Hannoh, In bed with you, Maison de Soil,
-                            Majestic, MII, Oska, Raga, Catherine André, Injiri,
-                            Transit, Roberto Collin, Zenggi, Pomandère, Vive la
-                            Difference, Xirena
+                            Diega&ensp; Hannoh&ensp; In bed with you&ensp;
+                            Maison de Soil&ensp; Majestic&ensp; MII&ensp;
+                            Oska&ensp; Raga&ensp; Catherine André&ensp;
+                            Injiri&ensp; Transit&ensp; Roberto Collin&ensp;
+                            Zenggi&ensp; Pomandère&ensp; Vive la
+                            Difference&ensp; Xirena&ensp; Diega&ensp;
+                            Hannoh&ensp; In bed with you&ensp; Maison de
+                            Soil&ensp; Majestic&ensp; MII,
                         </p>
                     </div>
                     <div className='marquee_clear'>
                         <p className='marquee_text'>
-                            Diega, Hannoh, In bed with you, Maison de Soil,
-                            Majestic, MII, Oska, Raga, Catherine André, Injiri,
-                            Transit, Roberto Collin, Zenggi, Pomandère, Vive la
-                            Difference, Xirena
+                            Diega&ensp; Hannoh&ensp; In bed with you&ensp;
+                            Maison de Soil&ensp; Majestic&ensp; MII&ensp;
+                            Oska&ensp; Raga&ensp; Catherine André&ensp;
+                            Injiri&ensp; Transit&ensp; Roberto Collin&ensp;
+                            Zenggi&ensp; Pomandère&ensp; Vive la
+                            Difference&ensp; Xirena&ensp; Diega&ensp;
+                            Hannoh&ensp; In bed with you&ensp; Maison de
+                            Soil&ensp; Majestic&ensp; MII,
                         </p>
                     </div>
                 </div>

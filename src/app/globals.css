@@ -59,45 +59,22 @@ main {
     font-size: 2.5em;
     display: grid;
     place-items: center;
-    /* overflow: hidden; */
     overflow: clip;
 }
-
-/* .marquee_inner {
-    display: inline-flex;
-    animation: scroll 30s linear infinite;
-}
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-} */
 
 .marquee_text {
     position: absolute;
     min-width: 100%;
     white-space: nowrap;
-    animation: scroll 30s linear infinite;
-    display: inline-block;
-}
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
+    animation: marquee 20s infinite linear;
 }
 
 @keyframes marquee {
     from {
-        transform: translateX(0%);
+        transform: translateX(50%);
     }
     to {
-        transform: translateX(-100%);
+        transform: translateX(-10%);
     }
 }
 
