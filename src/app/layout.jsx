@@ -20,9 +20,9 @@ export default function RootLayout({ children }) {
             <body
                 className={`${raleway.className} flex flex-col items-center justify-items-center min-h-screen`}
             >
-                <header className='row-start-1 flex items-center mt-8 mb-4'>
+                <header className='row-start-1 flex items-center mt-8 mb-4 w-full'>
                     <Image
-                        // className='dark:invert'
+                        className='max-w-[80%]'
                         src='/logo_LookoutMode.png'
                         alt='Lookout Mode logo'
                         width={400}

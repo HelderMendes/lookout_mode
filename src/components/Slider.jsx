@@ -37,9 +37,9 @@ export default function Slider() {
         setIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
     }
 
-    // Auto-advance every 2.5 seconds
+    // Auto-advance every 3.5 seconds
     useEffect(() => {
-        timerRef.current = setInterval(next, 2500); // 2500ms = 2.5s
+        timerRef.current = setInterval(next, 3500); // 3500ms = 3.5s
         return () => clearInterval(timerRef.current);
     }, []);
 
@@ -48,7 +48,7 @@ export default function Slider() {
         clearInterval(timerRef.current);
     }
     function handleMouseLeave() {
-        timerRef.current = setInterval(next, 3000);
+        timerRef.current = setInterval(next, 3500);
     }
 
     return (

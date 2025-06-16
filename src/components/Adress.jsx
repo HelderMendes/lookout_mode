@@ -3,9 +3,9 @@ import classes from './adress.module.css';
 
 export default function Adress() {
     return (
-        <div className='flex flex-col items-center gap-6 '>
-            <div className={classes.container}>
-                <h1 className={classes.masked_text}>
+        <div className='flex flex-col items-center gap-5 my-[40px] border-t-28 border-t-transparent '>
+            <div className={`${classes.container} `}>
+                <h1 className={`${classes.masked_text} `}>
                     Huizerweg 45
                     <br />
                     1401 GH, Bussum

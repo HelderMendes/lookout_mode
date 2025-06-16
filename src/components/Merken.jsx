@@ -29,9 +29,9 @@ export default function Merken() {
                     </div>
                 </div>
             </div>
-            <p className='text-center  font-light text-3xl text-gray-300 dark:text-gray-300'>
+            {/* <p className='text-center  font-light text-3xl text-gray-300 dark:text-gray-300'>
                 Zomercollectie 2025
-            </p>
+            </p> */}
         </div>
     );
 }

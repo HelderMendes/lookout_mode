@@ -62,6 +62,17 @@ main {
     overflow: clip;
 }
 
+@media (width <= 64rem /* 1024px */) {
+    .marquee {
+        font-size: 2em;
+    }
+}
+@media (width <= 48rem /* 768px */) {
+    .marquee {
+        font-size: 1.3em;
+    }
+}
+
 .marquee_text {
     position: absolute;
     min-width: 100%;
