@@ -7,13 +7,19 @@ export default function HomePage() {
     return (
         <>
             <Merken />
-            <div style={{ display: 'flex', width: '100%' }}>
-                <div style={{ flex: '0 0 70%', paddingRight: '16px' }}>
+            <div className='w-full flex lg:flex-row flex-col gap-24 lg:gap-0'>
+                <div className='w-full lg:w-[70%] lg:pr-4 mb-10 lg:mb-0'>
                     {/* First column content */}
                     <Slider />
                 </div>
-                <div style={{ flex: '0 0 30%', marginTop: '-20px' }}>
+                <div className='w-full lg:w-[30%] lg:-mt-5 hidden lg:flex flex-col gap-4'>
                     {/* Second column content */}
+                    <>
+                        <Adress />
+                        <Accessoires />
+                    </>
+                </div>
+                <div className='max-w-full sm:max-w-[94%]  w-full flex flex-col gap-0 md:flex-row md:gap-12 items-center justify-between lg:hidden'>
                     <Adress />
                     <Accessoires />
                 </div>
