@@ -68,10 +68,18 @@ export default function Slider() {
                 </div>
             ))}
             <div className={classes.nav}>
-                <button onClick={prev} aria-label='Previous slide'>
+                <button
+                    className={classes.firstBtn}
+                    onClick={prev}
+                    aria-label='Previous slide'
+                >
                     &#x2039;
                 </button>
-                <button onClick={next} aria-label='Next slide'>
+                <button
+                    className={classes.latestBtn}
+                    onClick={next}
+                    aria-label='Next slide'
+                >
                     &#x203a;
                 </button>
             </div>

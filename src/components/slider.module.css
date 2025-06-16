@@ -60,12 +60,12 @@
     transition: background 0.9s;
     background-color: rgba(138, 43, 226, 0.4);
 }
-div button:first-child {
+.firstBtn {
     position: absolute;
     left: 15px;
     top: -80px;
 }
-div button:last-child {
+.latestBtn {
     /* text-align: left; */
     position: absolute;
     /* position: relative; */
