@@ -1,7 +1,8 @@
 import './accessoires.css';
 
 export default function Accessoires() {
-    const text = ' ❤ MADE WITH ❤ LOVE ❤ MADE WITH ❤ LOVE ';
+    const text =
+        ' ❤ EVOL  ❤ HTIW EDAM ❤ EVOL  ❤ HTIW EDAM ❤ EVOL  ❤ HTIW EDAM  ';
 
     return (
         <div className='accessoires '>
